@@ -1,0 +1,70 @@
+/* body {
+  text-align: center;
+  background-color: #f287ce;
+} */
+
+body {
+text-align: center;
+background-color: rgb(0,0,0);
+/* background-image: url(http://www.zingerbugimages.com/backgrounds/light_blue_stars.gif); */
+/* background-image: url(http://www.zingerbugimages.com/backgrounds/pink_and_purple_christmas_lights_texture_seamless.jpg); */
+/* background-image: url(https://cdn.pixabay.com/photo/2017/11/22/22/52/milky-way-2971669_1280.jpg); */
+background-image: url("img/sky.jpeg");
+background-position: top left;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+#level-title {
+  font-family: 'Montez', cursive;
+  font-size: 3.7rem;
+  margin:  3%;
+  color: #ffe0a3;
+  text-shadow: #FC0 5px 0 10px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #ffe0a3;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background: url(img/1a.jpg) no-repeat center center;
+  background-color: white;
+}
+
+.green {
+  background: url(img/2a.jpg) no-repeat center center;
+  background-color: white;
+}
+
+.blue {
+  background: url(img/3a.jpg) no-repeat center center;
+  background-color: white;
+}
+
+.yellow {
+  background: url(img/4a.jpg) no-repeat center center;
+  background-color: white;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
